@@ -1,2 +1,4 @@
-# Grid-Treino
-Projeto feito com Css grid durante as aulas do curso OdinProject
+Cores:
+barra laterla e links => #8b5cf6
+
+resto d oconnteudo => #a78bfa

@@ -1,0 +1,286 @@
+/* MENU BAR LATERAL, CENTRAL */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color: #e5d8eb;
+    
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.menu-lateral {
+    width: 280px;
+    height: 930px;
+    background-color: #af0de0;
+    margin: 0;
+}
+
+.menu-lateral > h1 {
+    color: white;
+    position: relative;
+    top: 15px;
+}
+
+
+#menu-lateral2{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+#menu-lateral2:hover, #menu-lateral3:hover{
+    color: #dcd5eb;
+    transition: 1s;
+}
+
+#menu-lateral3 {
+    position: relative;
+    top: 100px;
+    left: 15px;
+}
+
+#imagem-lateral1 {
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+#imagem-lateral {
+    position: relative;
+    top: 5px;
+}
+
+
+.imagem1 {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.cabecalho {
+    position: relative;
+    float: right;
+    top: -930px;
+    right: -5px;
+    width: 1644px;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 40px;
+    box-shadow: 2px 2px 2px rgba(32, 31, 31, 0.24);
+}
+
+.lateral-lateral {
+    position: relative;
+    float: right;
+    top: 15px;
+    left: -250px;
+}
+#perfil-foto {
+    width: 50px;
+    position: relative;
+    left: -540px;
+}
+input {
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 15px;
+    width: 600px;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0.137);
+    position: relative;
+    top: 25px;
+
+}
+
+.search-bar {
+    position: relative;
+    left: 50px;
+}
+
+#perfil2 {
+    width: 70px;
+    position: relative;
+    left: 45px;
+    top: 32px;
+
+}
+
+.menu-extra {
+    float: right;
+    position: relative;
+    left: -200px;
+    top: -45px;
+
+}
+
+#cabecalho-item {
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #000;
+}
+
+#cabecalho-item:hover {
+    background-color: #af0de0;
+    transition: 1s;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+
+    color: #fff;
+    font-weight: bold;
+}
+
+.text {
+    position: relative;
+    left: 120px;
+    top: -20px;
+}
+
+/* CONTEUDO CENTRAL */   
+#id {
+    position: relative;
+    top: -720px;
+    left: 400px;
+} 
+
+.conteudo-central {
+    display: grid;
+    position: relative;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: repeat(3, 190px);
+    gap: 15px;
+    left: 400px;
+    top: -700px;
+}
+
+.conteudo {
+    background-color: #af0de0;
+    padding: 25px;
+    border-left: 10px solid rgba(85, 83, 83, 0.856);
+    border-radius: 15px;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(58, 57, 57, 0.452);
+}
+ .itens1{
+     position: relative;
+     top: 30px;
+     left: 100px;
+ }
+
+ .itens2{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.itens3{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.itens4{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+
+.itens5{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.itens6{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+/* CONTEUDO LATERAL */
+.conteudo-lateral {
+    display: grid;
+    grid-template-columns: 250px ;
+    gap: 35px;
+    position: relative;
+    top: -1350px;
+    left: 1100px;
+
+}
+
+.conteudo-lateral1{
+    padding: 30px;
+    background-color: #af0de0;
+    color: #fff;
+    border-radius: 15px;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+#imagem-lateral1 {
+    width: 60px;
+    border-radius: 150px;
+}
+
+#imagem-lateral3 {
+    width: 60px;
+    border-radius: 150px;
+}
+
+#imagem-lateral4 {
+    width: 60px;
+    border-radius: 150px;
+}
+
+#letra {
+    position: relative;
+    top: -1340px;
+    left: 1100px;
+}
+
+#letra2 {
+    position: relative;
+    left: 400px;
+    top: -480px;
+    
+}
+
+.conteudo-lateral2{
+    position: relative;
+    left: 400px;
+    top: -500px;
+    background-color: #af0de0;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.conteudo-lateral2 > p {
+   position: relative;
+   left: 80px;
+   top: -50px; 
+}
+
+.conteudo-lateral2 > img {
+    position: relative;
+    left: 10px;
+}
+
+#imagem-lateral1 {
+    position: relative;
+    left: 10px; 
+}
